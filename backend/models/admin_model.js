@@ -11,4 +11,5 @@ const adminSchema = new Schema({
 });
 
 adminSchema.plugin(toJSON);
+
 export const AdminModel = model('Admin',adminSchema);
